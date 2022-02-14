@@ -8,7 +8,7 @@ const ProductsPage = () => {
 
   const ObtenerDatos = async () => {
     const url = await fetch(
-      "https://api.mercadolibre.com/sites/MLA/search?q=riverremeras"
+      "https://api.mercadolibre.com/sites/MLA/search?q=botines"
     );
     const data = await url.json();
     setListProducts(data.results);
@@ -23,7 +23,7 @@ const ProductsPage = () => {
     <div className="product-list">
       {
         listProducts.map((product) => (
-          <Link key={product.id} to={`/products/${product.id}`}>
+          <Link key={product.id} to={`/products/${product.id}`} style={{ textDecoration: 'none' }}>
             <Card product={product} />
           </Link>
         ))

@@ -1,4 +1,4 @@
-import logoRV from "../assets/images/mercado-libre-logo.png"
+import logoRV from "../assets/images/nike-logo-png.png"
 import MenuItems from "./MenuItems";
 import "./Header.css";
 

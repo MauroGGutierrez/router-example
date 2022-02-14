@@ -4,7 +4,7 @@ import ButtonBack from "../components/ButtomBack"
 const AboutPage = () => {
   return (
     <>
-      <h1>AboutPage</h1>
+      <h1 className="txt-center">AboutPage</h1>
       <ButtonBack/>
     </>
   )

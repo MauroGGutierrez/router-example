@@ -1,5 +1,35 @@
-img {
+.img-card {
+  height: 9rem;
+  width: 10rem;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+.card-box {
+  background-color: rgb(204, 204, 204);
+  color: black;
+  padding: 0.4rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
   height: 10rem;
-  width: auto;
-  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.txt-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.title {
+  margin-left: 0.4rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.3rem;
+  text-align: right;
+  margin-right: 1rem;
+  color: rgb(31, 31, 31);
 }

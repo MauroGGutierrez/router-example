@@ -1,6 +1,6 @@
 .container {
-  background-color: yellow;
-  height: 4rem;
+  background-color: rgb(33, 33, 33);
+  height: 5rem;
   display: flex;
   align-items: center;
 }
@@ -14,5 +14,6 @@
 }
 
 .logo-mercado {
-  height: 2rem;
+  height: 3rem;
+  width: auto;
 }

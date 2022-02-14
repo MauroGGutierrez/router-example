@@ -1,3 +1,12 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.txt-align {
+  margin-left: 39.5rem;
+}
+
+.txt-center {
+  margin-top: 10rem;
+  margin-left: 37rem;
+}
